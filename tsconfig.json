@@ -16,6 +16,8 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "esModuleInterop": true, // <--- add this line to tsconfig.json file to fix the error TS2691  An import path cannot end with a '.ts' extension. Consider importing 'src/index' instead.
+    "paths": {}
   }
 }
